@@ -1,0 +1,149 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#idiomas{
+    background: black;
+    color: white;
+
+}
+#idiomas ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+#idiomas ul li{
+    padding: 1rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+    color: white;
+}
+header nav ul
+{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+header nav ul li{
+    padding: 3rem .3rem;
+    flex: 1;
+
+}
+main #Principal{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border: solid 1px red;
+}
+main #Principal aside{
+        border: solid 1px red;
+}
+main #Principal aside{
+        border: solid 1px red;
+}
+main #Principal article{
+        border: solid 1px red;
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+main #promos{
+          border: solid 1px red; 
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+}
+main #promos .Tarjeta{
+          border: solid 1px red;
+          width: 400px;
+          height: 150px;
+          
+}
+main #economia{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-around;
+} 
+main #economia a{
+    width: 50%;
+    border: solid 1px red;
+}
+mmain #economi table{
+    width: 50%;
+    border: solid 1px red;
+}
+footer #beneficios{
+    display: flex;
+        justify-content: center;
+}
+footer #beneficios aside{
+      border: solid 1px red;
+}
+#Bene ul{
+    list-style: none;
+    display: flex;
+
+
+}
+#Bene ul li{
+     border: solid 1px red;
+}
+footer #sitiosDeInteres{
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+}
+footer #sitiosDeInteres ul{
+    border: solid 1px red;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+footer #legales{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-around;
+}
+footer #legales ul{
+    list-style: none;
+    display: flex;
+}
+footer #legales ul li{
+    padding: .3rem;
+    border: solid 1px red;
+}
+footer #copy{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px red;
+}
+#sociales img{
+    border: solid 1px red;
+}
+footer  #copy #derecha{
+        border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+
+}
+footer  #copy #izquierda{
+        border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1;
+    
+}
